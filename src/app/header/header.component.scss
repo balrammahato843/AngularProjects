@@ -1,0 +1,54 @@
+header{
+    padding: 0;
+    border-bottom: 1px solid red;
+    font-weight: bold;
+    font-size: 20px;
+    // top: 0;
+    // position: sticky;
+}
+
+a{
+    color: brown;
+margin-left: 0;
+}
+
+a:hover{
+    background-color: red;
+    color: black;
+    font-family : bold
+}
+
+*{
+    background-color: #c3fc9b;
+}
+
+.container
+{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a.logo{
+    font-family : bold;
+    padding: 1em;
+}
+
+.logo{
+position: relative;
+ right: 82px;
+
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    }
+    
+nav ul li a{
+    padding: 1em;
+    display: inline-block ;
+    position: relative;
+    left: 82px;
+}
